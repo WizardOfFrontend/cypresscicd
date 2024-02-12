@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "cypress": "^13.6.1",
+    "neat-csv": "^5.1.0"
+  },
+  "name": "rahul",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "npx cypress run --spec cypress/e2e/**/*.js",
+    "headed": "npm run test -- --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
